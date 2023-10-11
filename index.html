@@ -73,7 +73,7 @@
                 const frase = datos[x].motivo;
                 const link = datos[x].github;
                 console.log(frase);
-                document.querySelector("#texto").innerHTML = `<p class="display-5">${frase} Y aquí pueden ver mi avance <a href="${link}/dno037-2023-2" target="_blank" class="link-dark link-underline-opacity-25 link-underline-opacity-100-hover">GitHub</a></p>`;
+                document.querySelector("#texto").innerHTML = `<p class="display-5">${frase} Y aquí pueden ver mi avance <a href="${link}" target="_blank" class="link-dark link-underline-opacity-25 link-underline-opacity-100-hover">GitHub</a></p>`;
             }
             frase(18).catch((error) => console.error(error));
         </script>
